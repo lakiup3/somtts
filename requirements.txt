@@ -1,0 +1,6 @@
+
+pyTelegramBotAPI
+flask
+edge-tts
+asyncio
+pymongo
