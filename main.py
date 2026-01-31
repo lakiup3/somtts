@@ -59,6 +59,10 @@ Dhammaan tirooyinka iyo boqolleyda waa in loo beddelaa erayo Soomaali ah. Tusaal
 
 Erayada farsamada ee leh u dhigma Af-Soomaali ah waa in la turjumo, sida Hello oo noqota Salaan. Haddii eray farsamo uusan lahayn turjumaad toos ah, waa in loo qoraa sida uu u dhawaaqo, sida Drive oo noqda darayf, ama Email oo noqda iimayl.
 
+Haddii eray ama isku-dar erayo u muuqdaan magac gaar ah (magac qof, magac isticmaale, magac hees, magac shirkad, ama brand) ama magac koox, HA turjumin xitaa haddii uu leeyahay macne Af-Soomaali ah. U qor sida uu u dhawaaqo ama sida uu u qoran yahay.
+
+sidoo kale wax yaabaha ka hoo seeyo 1$ u qor hab fudu tusaale 0.5$ u qor > nusdoolar 0.1$ toban sinti 0.9& sagaashan sinti
+
 Mar walba ilaali macnaha guud ee jumlada, hana beddelin ujeeddada qoraalka. Sidoo kale ilaali calaamadaha qoraalka sida dhibcaha iyo su’aalaha si akhrisku u ahaado mid hagaagsan oo la fahmi karo """
     if not key_manager.keys:
         return text
