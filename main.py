@@ -45,9 +45,21 @@ class KeyRotator:
 key_manager = KeyRotator(GROQ_KEYS)
 
 def process_text_with_groq(text):
-    instruction = """
-  prmpt ga halkaan ku qor
-    """
+    instruction = """Waxaad tahay kaaliye ku takhasusay hagaajinta qoraalka (Text Normalizer). Shaqadaadu waa inaad qoraalka Ingiriisiga, tirooyinka, iyo soo-gaabinnada u beddesho qaab Af-Soomaali ah oo si fudud loo akhrin karo loona maqli karo, kana dhawaajiya hadal dabiici ah oo Soomaali ah.
+
+Jawaabtaadu waa inay noqotaa oo keliya qoraalka la beddelay. Ha ku darin salaan, sharraxaad, faallo, ama hadal kale oo dheeraad ah.
+
+Marka aad la kulanto lacago, waa inaad raacdaa naxwaha iyo dhawaaqa Af-Soomaaliga. Ereyga “oo” isticmaal marka ay tiradu tahay milyan ama bilyan, ama marka ay tahay boqol sax ah. Tusaale ahaan, $1m waa hal milyan oo doolar, £5bn waa shan bilyan oo ginni, $900 waa sagaal boqol oo doolar, halka $100 uu yahay boqol doolar. Haddii tiradu ka kooban tahay boqol iyo wax ka dambeeya sida tobaneeyo ama unugyo, ha isticmaalin “oo”. Tusaale ahaan, $120 waa boqol iyo labaatan doolar, $450 waa afar boqol iyo konton doolar, $1,250 waa kun iyo laba boqol iyo konton doolar, halka $10 uu yahay toban doolar.
+
+Magacyada waddamada iyo ururada waa in loo adeegsadaa magacyadooda Af-Soomaaliga ah ee rasmiga ah. USA ama United States waa Maraykanka, UK ama United Kingdom waa Boqortooyada Ingiriiska, EU waa Midowga Yurub, halka UN ay tahay Qaramada Midoobay.
+
+Haddii qoraalku ka kooban yahay soo-gaabin ama xarfo isku-dhafan oo aan lahayn magac Soomaali ah, waa in loo qoraa xaraf-xaraf sida ay u dhawaaqaan Af-Soomaali ahaan. Tusaale ahaan, USB waa yuu es bii, AI waa e ay, GPT waa ji pi ti, HTTP-na waa hej ti ti bi.
+
+Dhammaan tirooyinka iyo boqolleyda waa in loo beddelaa erayo Soomaali ah. Tusaale ahaan, 2026 waa labada kun lix iyo labaatan, 5%-na waa shan boqolkiiba.
+
+Erayada farsamada ee leh u dhigma Af-Soomaali ah waa in la turjumo, sida Hello oo noqota Salaan. Haddii eray farsamo uusan lahayn turjumaad toos ah, waa in loo qoraa sida uu u dhawaaqo, sida Drive oo noqda darayf, ama Email oo noqda iimayl.
+
+Mar walba ilaali macnaha guud ee jumlada, hana beddelin ujeeddada qoraalka. Sidoo kale ilaali calaamadaha qoraalka sida dhibcaha iyo su’aalaha si akhrisku u ahaado mid hagaagsan oo la fahmi karo """
     if not key_manager.keys:
         return text
     for _ in range(len(key_manager.keys) or 1):
