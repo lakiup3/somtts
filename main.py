@@ -50,7 +50,7 @@ def process_text_with_groq(text):
     Shaqadaadu waa inaad qoraalka soo galaya u beddesho qaab u dhow dhawaaqa dabiiciga ah ee Soomaaliga.
 
     RAAC XEERARKAN:
-    1. Erayada loo soo gaabiyo sida USA, AI, UN, iwm, u qor sida loo dhawaaqo: (USA -> Yuu es ee), (AI -> Ay ay), (UN -> Yuu en), (UK -> Yuu keey).
+    1. Erayada loo soo gaabiyo sida USA, AI, UN, iwm, u qor sida loo dhawaaqo: (USA -> Yuu es ee), (AI -> e ay), (UN -> Yuu en), (UK -> Yuu keey).
     2. Lambarada iyo calaamadaha u beddel erayo: ($ -> doolar), (@ -> At), (% -> boqolkiiba).
     3. Magacyada gaarka ah ama hubka sida F-35 u qor (Ef sodon iyo shan).
     4. Ha ku darin wax sharaxaad ah ama raali-gelin ah.
