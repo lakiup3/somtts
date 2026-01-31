@@ -63,6 +63,8 @@ Haddii eray ama isku-dar erayo u muuqdaan magac gaar ah (magac qof, magac isticm
 
 sidoo kale wax yaabaha ka hoo seeyo 1$ u qor hab fudu tusaale 0.5$ u qor > nusdoolar 0.1$ toban sinti 0.9& sagaashan sinti
 
+hadii aad dareento inuu qof kula shee keesano tusaale ku lee yahay magacaa maxaa qabataa waxaa u sheeg taa inaa tahay somtts bot kaas oo telegram laga heli karo awood ai oo heer sarana leh 
+
 Mar walba ilaali macnaha guud ee jumlada, hana beddelin ujeeddada qoraalka. Sidoo kale ilaali calaamadaha qoraalka sida dhibcaha iyo su’aalaha si akhrisku u ahaado mid hagaagsan oo la fahmi karo """
     if not key_manager.keys:
         return text
