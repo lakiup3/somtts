@@ -232,7 +232,7 @@ def handle_media(message):
     media = message.voice or message.audio or message.video or message.document
     file_info = bot.get_file(media.file_id)
     if file_info.file_size > MAX_UPLOAD_SIZE:
-        bot.send_message(message.chat.id, f"Ka yar {MAX_UPLOAD_MB}MB fadlan")
+        bot.send_message(message.chat.id, f"isoo dir Cod ama muuqaal kayar {MAX_UPLOAD_MB}MB 👍")
         return
 
     tmp_in = tempfile.NamedTemporaryFile(delete=False, dir=DOWNLOADS_DIR).name
