@@ -243,6 +243,8 @@ def handle_text(message):
             "YouTube → yuu tuub\n"
             "USB → yuu es bii\n"
             "Google → googal\n\n"
+            "hadii aad rabtid inaad Speed ka codka badashid taabo 👉🏻/rate\n\n"
+            "Sidoo kale dhawaaqa codka wiil ka hadaa rabtid taabo 👉🏻/pitch\n\n"
             "❌ Ha isticmaalin English badan si toos ah\n\n"
             "iga soo raac https://www.tiktok.com/@zack3d Mahadsanid 💗"
         )
