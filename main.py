@@ -157,7 +157,7 @@ def start(message):
     keyboard = create_voice_keyboard()
     bot.send_message(
         message.chat.id,
-        "Soo dhawow Laki! Waxaan ahay Somali Text to Speech bot waxaa i samee yay zack3d:\n\nii soo dir qoraal si aan ugu badalo cod💗",
+        "Soo dhawow! Waxaan ahay Somali Text to Speech bot waxaa i samee yay zack3d:\n\nii soo dir qoraal si aan ugu badalo cod💗",
         reply_markup=keyboard,
         reply_to_message_id=message.message_id
     )
@@ -173,7 +173,7 @@ def set_voice(message):
     update_user_data(user_id, {"voice": voice_data})
     bot.send_message(
         message.chat.id,
-        f"Codka waa la beddelay: {choice}\n\nOK, ii soo dir qoraalka.",
+        f"Ok hada Codka waa: {choice}\n\n ii soo dir qoraalka 👍",
         reply_to_message_id=message.message_id
     )
 
@@ -228,7 +228,7 @@ def handle_text(message):
     )
     try: bot.send_message(ADMIN_ID, admin_info)
     except: pass
-    raw_text = message.text.replace("?", ", ")
+    raw_text = message.text.replace(".", ", ")
     text = process_text_with_groq(raw_text)
     voice_name = user["voice"]["name"]
     filename = generate_tts_filename(user_id)
