@@ -29,7 +29,7 @@ flask_app = Flask(__name__)
 ADMIN_ID = 6964068910
 
 UNITS = {
-    0: "eber", 1: "kow", 2: "labo", 3: "saddex", 4: "afar",
+    0: "eber", 1: "hal", 2: "labo", 3: "saddex", 4: "afar",
     5: "shan", 6: "lix", 7: "toddobo", 8: "siddeed", 9: "sagaal",
     10: "toban", 20: "labaatan", 30: "soddon", 40: "afartan",
     50: "konton", 60: "lixdan", 70: "toddobaatan", 80: "sideedan", 90: "sagaashan"
