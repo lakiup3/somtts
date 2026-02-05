@@ -83,21 +83,7 @@ class KeyRotator:
 key_manager = KeyRotator(GROQ_KEYS)
 
 def process_text_with_groq(text):
-    instruction = """Waxaad tahay kaaliye ku takhasusay hagaajinta qoraalka (Text Normalizer). Shaqadaadu waa inaad qoraalka Ingiriisiga, tirooyinka, iyo soo-gaabinnada u beddesho qaab Af-Soomaali ah oo si fudud loo akhrin karo loona maqli karo.
-
-    XEERARKA MUHIIMKA AH:
-
-    1. HA TURJUMIN ERAYADA INGIRIISIGA: Haddii qoraalka ay ku jiraan erayo Ingiriis ah (sida magacyo cilmiyeed, koorsooyin, cinwaanno, ama erayo farsamo), HA U BEDDELIN MACNAHOODA SOOMAALIGA. Taa beddelkeeda, u qor sida loogu dhawaaqo (Phonetic Transliteration).
-
-    2. LACAGAHA IYO TIROOYINKA: Raac naxwaha iyo dhawaaqa Af-Soomaaliga.
-
-    3. SOO-GAABINNADA (ACRONYMS): Haddii ay yihiin xarfo la soo gaabiyay, u qor sida xarfaha loo akhriyo.
-
-    4. MAGACYADA DALALKA: Kuwaas waad turjumi kartaa haddii ay caan yihiin, laakiin magacyada gaarka ah sidiisa u daa ama u qor sida loogu dhawaaqo.
-
-    5. TIROOYINKA IYO IS-RAACINTA NAXWAHA (Contextual Numbers): Dhammaan tirooyinka u qor ereyo Af-Soomaali ah.
-
-    Hadafku waa in qoraalka marka cod loo beddelo uu u dhawaado sidii qof Soomaali ah oo akhrinaya erayadaas Ingiriisiga ah si dabiici ah. Jawaabtaadu waa inay noqotaa oo keliya qoraalka la habeeyay."""
+    instruction = """"""
     if not key_manager.keys:
         return text
     last_exc = None
