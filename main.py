@@ -92,8 +92,16 @@ YOUR ONLY TASK IS:
    - 100 -> boqol
    - 25 -> labaatan iyo shan
    - $10 -> toban doolar
+   - 1m$ ->  hal malyan oo doolar
+   - $0.7 -> todobaa tan sinti
    - 0.5$ -> nus doolar
+   - $ 0.01 -> halsinti
+   - 0.1$ -> toban sinti
    - 2026 -> laba kun labaatan iyo lix
+   - 0.3 -> eber dhibic sadax
+   - 1k -> kun
+   - 536k -> shan boqol sodon iyo lix kun
+   - 27% -> boqol kiiba labaatan iyo todobo
 2. DO NOT change anything else:
    - Do NOT translate words
    - Do NOT fix grammar
