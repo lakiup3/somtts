@@ -279,7 +279,7 @@ def cmd_pitch(message):
         return
     user = get_user_data(message.from_user.id)
     current = user.get("pitch", 0)
-    bot.send_message(message.chat.id, "(pitch) ok taabo bottom ka ➕ ta:", reply_markup=pitch_keyboard(current))
+    bot.send_message(message.chat.id, "Halkan ka hagaaji Dhuubni da Codka:", reply_markup=pitch_keyboard(current))
 
 @bot.callback_query_handler(func=lambda call: call.data and call.data.startswith(("rate_", "pitch_")))
 def slider_handler(call):
