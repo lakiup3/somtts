@@ -345,7 +345,7 @@ def handle_text(message):
     async def make_tts():
         if user["voice"]["label"] == "Codka Qulaasada 😜":
             rate_val = 30
-            pitch_val = 50
+            pitch_val = 35
         else:
             pitch_val = user.get("pitch", 0)
             rate_val = user.get("rate", 0)
