@@ -270,7 +270,7 @@ def cmd_rate(message):
         return
     user = get_user_data(message.from_user.id)
     current = user.get("rate", 0)
-    bot.send_message(message.chat.id, "(Speed) ok taabo bottom ka ➕ ta:", reply_markup=rate_keyboard(current))
+    bot.send_message(message.chat.id, "Halkan ka hagaaji xawaaraha Codka:", reply_markup=rate_keyboard(current))
 
 @bot.message_handler(commands=['pitch'])
 def cmd_pitch(message):
