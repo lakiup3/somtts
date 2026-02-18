@@ -19,7 +19,7 @@ WEBHOOK_URL = WEBHOOK_URL_BASE.rstrip('/') + WEBHOOK_PATH if WEBHOOK_URL_BASE el
 DOWNLOADS_DIR = os.environ.get("DOWNLOADS_DIR", "./downloads")
 os.makedirs(DOWNLOADS_DIR, exist_ok=True)
 PIN_SOURCE = os.environ.get("PIN_SOURCE", "-1003516493646")
-OTHER_CHANNEL_SOURCE = "-1002315757754"
+OTHER_CHANNEL_SOURCE = "-1003599150680"
 
 MONGO_URI = "mongodb+srv://lakiup3_db_user:V4Nbt6YcqH0qCBix@cluster0.my3ety2.mongodb.net/?appName=Cluster0"
 client = MongoClient(MONGO_URI)
